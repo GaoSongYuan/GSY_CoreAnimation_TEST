@@ -29,20 +29,20 @@
 // 上一张图片
 - (IBAction)preAction:(id)sender {
     self.index--;
-    if (self.index<1) {
-        self.index=7;
+    if (self.index < 1) {
+        self.index = 7;
     }
-    self.imageView.image=[UIImage imageNamed: [NSString stringWithFormat:@"%d.jpg",self.index]];
+    self.imageView.image = [UIImage imageNamed: [NSString stringWithFormat:@"%d.jpg",self.index]];
     
     //创建核心动画
-    CATransition *ca=[CATransition animation];
+    CATransition *ca = [CATransition animation];
     //告诉要执行什么动画
     //设置过度效果
-    ca.type=@"cube";
+    ca.type = @"cube";
     //设置动画的过度方向（向左）
-    ca.subtype=kCATransitionFromLeft;
+    ca.subtype = kCATransitionFromLeft;
     //设置动画的时间
-    ca.duration=2.0;
+    ca.duration = 2.0;
     //添加动画
     [self.imageView.layer addAnimation:ca forKey:nil];
 }
@@ -50,23 +50,23 @@
 // 下一张图片
 - (IBAction)nextImageAction:(id)sender {
     self.index++;
-    if (self.index>7) {
-         self.index=1;
+    if (self.index > 7) {
+         self.index = 1;
      }
-     self.imageView.image=[UIImage imageNamed: [NSString stringWithFormat:@"%d.jpg",self.index]];
+     self.imageView.image = [UIImage imageNamed: [NSString stringWithFormat:@"%d.jpg",self.index]];
 
     //1.创建核心动画
-    CATransition *ca=[CATransition animation];
+    CATransition *ca = [CATransition animation];
 
     //1.1告诉要执行什么动画
     //1.2设置过度效果
-    ca.type=@"cube";
+    ca.type = @"cube";
     //1.3设置动画的过度方向（向右）
-    ca.subtype=kCATransitionFromRight;
+    ca.subtype = kCATransitionFromRight;
     //1.4设置动画的时间
-    ca.duration=2.0;
+    ca.duration = 2.0;
     //1.5设置动画的起点
-    ca.startProgress=0;
+    ca.startProgress = 0;
     //1.6设置动画的终点
     //    ca.endProgress=0.5;
 
