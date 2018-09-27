@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		060474F804340E3B67F1400548143CA1 /* AMAnimatedNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 65BC16EADAF6E91324E751CDD750828B /* AMAnimatedNumber.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		56E978DD917689D41BA81D0BB12E228E /* DPScrollNumberLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD690F947B74D5E1731909A9F78D3A2 /* DPScrollNumberLabel-dummy.m */; };
+		6E45C57A220A48E60B4393B5CC84FD20 /* Pods-scrollNumberDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0163A0512A17A66500DADF36074D0273 /* Pods-scrollNumberDemo-dummy.m */; };
+		A737CD38B68B54362A10222B5565C2BC /* AMAnimatedNumber-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 933FBF3DA997C1008A616649C0CF6DB1 /* AMAnimatedNumber-dummy.m */; };
+		B456ED91038D8FDE7831E3B2448D7F59 /* DPScrollNumberLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 95960CBAAEB4C51CBA872780D49F6BEC /* DPScrollNumberLabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CCFD62937B49BE78AC4FE984212ADD91 /* AMAnimatedNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = D4BE9CDF8A7AC73F4861F6D1ECDB6A69 /* AMAnimatedNumber.m */; };
+		D42DC852AF48880E2B315983FE4256DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD46FBC041420035C341CC6342582587 /* UIKit.framework */; };
+		E20EEB6C82CAEE27E677C03B468E1029 /* DPScrollNumberLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 05471A9B44B257493F5470AFE1ECDF4B /* DPScrollNumberLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8AA611B8F5060C7F3328567F9EFF4FCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3688058B1F15D0EB37E1166D73952A18;
+			remoteInfo = DPScrollNumberLabel;
+		};
+		FDAF037638AA1303C0E4F8E909A70DA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57F03E6B6F3301ECE537B16ECA0CEB10;
+			remoteInfo = AMAnimatedNumber;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0163A0512A17A66500DADF36074D0273 /* Pods-scrollNumberDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-scrollNumberDemo-dummy.m"; sourceTree = "<group>"; };
+		05471A9B44B257493F5470AFE1ECDF4B /* DPScrollNumberLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DPScrollNumberLabel.m; path = DPScrollNumberLabel/DPScrollNumberLabel.m; sourceTree = "<group>"; };
+		0B0E7382E336A07AF609A1B3D6C09493 /* AMAnimatedNumber-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMAnimatedNumber-prefix.pch"; sourceTree = "<group>"; };
+		10C3872F3D57BAE9131F3D88D58B8218 /* DPScrollNumberLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DPScrollNumberLabel-prefix.pch"; sourceTree = "<group>"; };
+		216CE1F7C3865EFC9938CE44C51BFBD4 /* Pods-scrollNumberDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-scrollNumberDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		2E05CDACFA2AE32FDC895DD194688654 /* Pods-scrollNumberDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-scrollNumberDemo-frameworks.sh"; sourceTree = "<group>"; };
+		331708D1872DE738A19BC94D7BE8C28F /* libAMAnimatedNumber.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAMAnimatedNumber.a; path = libAMAnimatedNumber.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		57D9556E94DEF0C5C25E03A8D3838737 /* libPods-scrollNumberDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-scrollNumberDemo.a"; path = "libPods-scrollNumberDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AD690F947B74D5E1731909A9F78D3A2 /* DPScrollNumberLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DPScrollNumberLabel-dummy.m"; sourceTree = "<group>"; };
+		65BC16EADAF6E91324E751CDD750828B /* AMAnimatedNumber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMAnimatedNumber.h; path = AMAnimatedNumber/AMAnimatedNumber.h; sourceTree = "<group>"; };
+		6EB9E84FCD0155EFAD27EC16AF235322 /* DPScrollNumberLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DPScrollNumberLabel.xcconfig; sourceTree = "<group>"; };
+		70813530FB7AAFD79FFC2CAB83EF9D92 /* Pods-scrollNumberDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-scrollNumberDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		933FBF3DA997C1008A616649C0CF6DB1 /* AMAnimatedNumber-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMAnimatedNumber-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95960CBAAEB4C51CBA872780D49F6BEC /* DPScrollNumberLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DPScrollNumberLabel.h; path = DPScrollNumberLabel/DPScrollNumberLabel.h; sourceTree = "<group>"; };
+		984B2029049F793784EC5802BB06E613 /* libDPScrollNumberLabel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libDPScrollNumberLabel.a; path = libDPScrollNumberLabel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B16F8F092CF1470004DC1BCB5929DDE0 /* AMAnimatedNumber.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMAnimatedNumber.xcconfig; sourceTree = "<group>"; };
+		CF77A0DE06FA1A2A77A3DF6B4C08EDCB /* Pods-scrollNumberDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-scrollNumberDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D16884491E5318F8C8B20C53C3933744 /* Pods-scrollNumberDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-scrollNumberDemo-resources.sh"; sourceTree = "<group>"; };
+		D4BE9CDF8A7AC73F4861F6D1ECDB6A69 /* AMAnimatedNumber.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AMAnimatedNumber.m; path = AMAnimatedNumber/AMAnimatedNumber.m; sourceTree = "<group>"; };
+		DD46FBC041420035C341CC6342582587 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E845E23DBA1A8173CF1FE404394B88C7 /* Pods-scrollNumberDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-scrollNumberDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		431E4B076CA7E8C2EE976911E0903AC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70C366BBFAA4D62C5AB68BAFA73E249A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D42DC852AF48880E2B315983FE4256DB /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B50A95B8859C8611ED0CBEB91B8DA94A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B23A7E1E60D7542C244B9FF04608052 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EB9E84FCD0155EFAD27EC16AF235322 /* DPScrollNumberLabel.xcconfig */,
+				5AD690F947B74D5E1731909A9F78D3A2 /* DPScrollNumberLabel-dummy.m */,
+				10C3872F3D57BAE9131F3D88D58B8218 /* DPScrollNumberLabel-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DPScrollNumberLabel";
+			sourceTree = "<group>";
+		};
+		4C878EFB1D6029F820CF8276AAAF2897 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				331708D1872DE738A19BC94D7BE8C28F /* libAMAnimatedNumber.a */,
+				984B2029049F793784EC5802BB06E613 /* libDPScrollNumberLabel.a */,
+				57D9556E94DEF0C5C25E03A8D3838737 /* libPods-scrollNumberDemo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FC2F870F565406677D0E3B86B51490D /* AMAnimatedNumber */ = {
+			isa = PBXGroup;
+			children = (
+				65BC16EADAF6E91324E751CDD750828B /* AMAnimatedNumber.h */,
+				D4BE9CDF8A7AC73F4861F6D1ECDB6A69 /* AMAnimatedNumber.m */,
+				A25065F720CD85AABBB28E8357F757F5 /* Support Files */,
+			);
+			name = AMAnimatedNumber;
+			path = AMAnimatedNumber;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				8D308C7A047EAECD03E7F7D1717D297D /* Pods */,
+				4C878EFB1D6029F820CF8276AAAF2897 /* Products */,
+				C0698AB450109EC698E221C6B193748C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8D308C7A047EAECD03E7F7D1717D297D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FC2F870F565406677D0E3B86B51490D /* AMAnimatedNumber */,
+				B9B1FDC218520F8F50FD0B9DE12FD80D /* DPScrollNumberLabel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A25065F720CD85AABBB28E8357F757F5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B16F8F092CF1470004DC1BCB5929DDE0 /* AMAnimatedNumber.xcconfig */,
+				933FBF3DA997C1008A616649C0CF6DB1 /* AMAnimatedNumber-dummy.m */,
+				0B0E7382E336A07AF609A1B3D6C09493 /* AMAnimatedNumber-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AMAnimatedNumber";
+			sourceTree = "<group>";
+		};
+		B9B1FDC218520F8F50FD0B9DE12FD80D /* DPScrollNumberLabel */ = {
+			isa = PBXGroup;
+			children = (
+				95960CBAAEB4C51CBA872780D49F6BEC /* DPScrollNumberLabel.h */,
+				05471A9B44B257493F5470AFE1ECDF4B /* DPScrollNumberLabel.m */,
+				3B23A7E1E60D7542C244B9FF04608052 /* Support Files */,
+			);
+			name = DPScrollNumberLabel;
+			path = DPScrollNumberLabel;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF5B08143E740C3777FEB0D3A952141C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0698AB450109EC698E221C6B193748C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5DCE0FB77247E10F441A740DDA6421B /* Pods-scrollNumberDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E5DCE0FB77247E10F441A740DDA6421B /* Pods-scrollNumberDemo */ = {
+			isa = PBXGroup;
+			children = (
+				70813530FB7AAFD79FFC2CAB83EF9D92 /* Pods-scrollNumberDemo-acknowledgements.markdown */,
+				216CE1F7C3865EFC9938CE44C51BFBD4 /* Pods-scrollNumberDemo-acknowledgements.plist */,
+				0163A0512A17A66500DADF36074D0273 /* Pods-scrollNumberDemo-dummy.m */,
+				2E05CDACFA2AE32FDC895DD194688654 /* Pods-scrollNumberDemo-frameworks.sh */,
+				D16884491E5318F8C8B20C53C3933744 /* Pods-scrollNumberDemo-resources.sh */,
+				CF77A0DE06FA1A2A77A3DF6B4C08EDCB /* Pods-scrollNumberDemo.debug.xcconfig */,
+				E845E23DBA1A8173CF1FE404394B88C7 /* Pods-scrollNumberDemo.release.xcconfig */,
+			);
+			name = "Pods-scrollNumberDemo";
+			path = "Target Support Files/Pods-scrollNumberDemo";
+			sourceTree = "<group>";
+		};
+		FF5B08143E740C3777FEB0D3A952141C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DD46FBC041420035C341CC6342582587 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4862052313052C6D232966BB9FA1252E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B456ED91038D8FDE7831E3B2448D7F59 /* DPScrollNumberLabel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A76AF08020B808C57AB9719F62D4602 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				060474F804340E3B67F1400548143CA1 /* AMAnimatedNumber.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3688058B1F15D0EB37E1166D73952A18 /* DPScrollNumberLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5DB5AC79C2A8B71F09E64FF28E39E58 /* Build configuration list for PBXNativeTarget "DPScrollNumberLabel" */;
+			buildPhases = (
+				DA99800D8A4C931CC0CB35F6FDF4FA1E /* Sources */,
+				70C366BBFAA4D62C5AB68BAFA73E249A /* Frameworks */,
+				4862052313052C6D232966BB9FA1252E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DPScrollNumberLabel;
+			productName = DPScrollNumberLabel;
+			productReference = 984B2029049F793784EC5802BB06E613 /* libDPScrollNumberLabel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		57F03E6B6F3301ECE537B16ECA0CEB10 /* AMAnimatedNumber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B15175F591272D4CD124821F1847119 /* Build configuration list for PBXNativeTarget "AMAnimatedNumber" */;
+			buildPhases = (
+				5A3601A9C3C299E912D1448CD94B7BE9 /* Sources */,
+				B50A95B8859C8611ED0CBEB91B8DA94A /* Frameworks */,
+				8A76AF08020B808C57AB9719F62D4602 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AMAnimatedNumber;
+			productName = AMAnimatedNumber;
+			productReference = 331708D1872DE738A19BC94D7BE8C28F /* libAMAnimatedNumber.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B3BBAB90F1D7CE91EF2B5EC230E6C8B1 /* Pods-scrollNumberDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AF3D55CE16C5E77A0100AD926B752C1 /* Build configuration list for PBXNativeTarget "Pods-scrollNumberDemo" */;
+			buildPhases = (
+				53941D0A26F69DB84527E6E46EE68F38 /* Sources */,
+				431E4B076CA7E8C2EE976911E0903AC8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				193D90543B327246FC4AF2F08F218B6A /* PBXTargetDependency */,
+				9B710B56C861D37A5557279F37BAE963 /* PBXTargetDependency */,
+			);
+			name = "Pods-scrollNumberDemo";
+			productName = "Pods-scrollNumberDemo";
+			productReference = 57D9556E94DEF0C5C25E03A8D3838737 /* libPods-scrollNumberDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4C878EFB1D6029F820CF8276AAAF2897 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57F03E6B6F3301ECE537B16ECA0CEB10 /* AMAnimatedNumber */,
+				3688058B1F15D0EB37E1166D73952A18 /* DPScrollNumberLabel */,
+				B3BBAB90F1D7CE91EF2B5EC230E6C8B1 /* Pods-scrollNumberDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53941D0A26F69DB84527E6E46EE68F38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E45C57A220A48E60B4393B5CC84FD20 /* Pods-scrollNumberDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A3601A9C3C299E912D1448CD94B7BE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A737CD38B68B54362A10222B5565C2BC /* AMAnimatedNumber-dummy.m in Sources */,
+				CCFD62937B49BE78AC4FE984212ADD91 /* AMAnimatedNumber.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA99800D8A4C931CC0CB35F6FDF4FA1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56E978DD917689D41BA81D0BB12E228E /* DPScrollNumberLabel-dummy.m in Sources */,
+				E20EEB6C82CAEE27E677C03B468E1029 /* DPScrollNumberLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		193D90543B327246FC4AF2F08F218B6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AMAnimatedNumber;
+			target = 57F03E6B6F3301ECE537B16ECA0CEB10 /* AMAnimatedNumber */;
+			targetProxy = FDAF037638AA1303C0E4F8E909A70DA2 /* PBXContainerItemProxy */;
+		};
+		9B710B56C861D37A5557279F37BAE963 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DPScrollNumberLabel;
+			target = 3688058B1F15D0EB37E1166D73952A18 /* DPScrollNumberLabel */;
+			targetProxy = 8AA611B8F5060C7F3328567F9EFF4FCF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18B626923156DB00869264750401190A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B16F8F092CF1470004DC1BCB5929DDE0 /* AMAnimatedNumber.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/AMAnimatedNumber/AMAnimatedNumber-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = AMAnimatedNumber;
+				PRODUCT_NAME = AMAnimatedNumber;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9AE479660D19DB23014A31667529E985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EB9E84FCD0155EFAD27EC16AF235322 /* DPScrollNumberLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DPScrollNumberLabel/DPScrollNumberLabel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = DPScrollNumberLabel;
+				PRODUCT_NAME = DPScrollNumberLabel;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5B0555A8240A1336D6088B0C42AB581 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EB9E84FCD0155EFAD27EC16AF235322 /* DPScrollNumberLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DPScrollNumberLabel/DPScrollNumberLabel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = DPScrollNumberLabel;
+				PRODUCT_NAME = DPScrollNumberLabel;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D1CA8407715F460250A898EF5EDE8CD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF77A0DE06FA1A2A77A3DF6B4C08EDCB /* Pods-scrollNumberDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEF4F40F7EAC320D0463AF63E99E24E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E845E23DBA1A8173CF1FE404394B88C7 /* Pods-scrollNumberDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8CAEDA2EEACDFEEB24D2B7DA4B4411B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B16F8F092CF1470004DC1BCB5929DDE0 /* AMAnimatedNumber.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/AMAnimatedNumber/AMAnimatedNumber-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = AMAnimatedNumber;
+				PRODUCT_NAME = AMAnimatedNumber;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */,
+				AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B15175F591272D4CD124821F1847119 /* Build configuration list for PBXNativeTarget "AMAnimatedNumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8CAEDA2EEACDFEEB24D2B7DA4B4411B /* Debug */,
+				18B626923156DB00869264750401190A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AF3D55CE16C5E77A0100AD926B752C1 /* Build configuration list for PBXNativeTarget "Pods-scrollNumberDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1CA8407715F460250A898EF5EDE8CD8 /* Debug */,
+				DEF4F40F7EAC320D0463AF63E99E24E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5DB5AC79C2A8B71F09E64FF28E39E58 /* Build configuration list for PBXNativeTarget "DPScrollNumberLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5B0555A8240A1336D6088B0C42AB581 /* Debug */,
+				9AE479660D19DB23014A31667529E985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

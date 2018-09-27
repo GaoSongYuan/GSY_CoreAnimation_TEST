@@ -1,0 +1,20 @@
+PODS:
+  - AMAnimatedNumber (0.0.1)
+  - DPScrollNumberLabel (0.0.2)
+
+DEPENDENCIES:
+  - AMAnimatedNumber
+  - DPScrollNumberLabel (~> 0.0.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AMAnimatedNumber
+    - DPScrollNumberLabel
+
+SPEC CHECKSUMS:
+  AMAnimatedNumber: 38520cc5b16fd21fecc3705b16d5002a7c13b09d
+  DPScrollNumberLabel: 5124eaccf3029bb84116de391e1273cba676f4f5
+
+PODFILE CHECKSUM: ebf428b560d9607939fdfcb115a87e7344ca65f9
+
+COCOAPODS: 1.5.3
